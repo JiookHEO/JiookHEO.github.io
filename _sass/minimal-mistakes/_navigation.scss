@@ -61,7 +61,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: $sans-serif;
+    font-family: $Noto;
   }
 
   li {
@@ -123,7 +123,7 @@
     padding: 1em 2em;
     float: left;
     width: 50%;
-    font-family: $sans-serif;
+    font-family: $Noto;
     font-size: $type-size-5;
     font-weight: bold;
     text-align: center;
@@ -347,6 +347,7 @@
   }
 
   @include breakpoint(max-width $large - 1px) {
+    /* 토글메뉴 버튼 옵션*/
     label {
       position: relative;
       display: inline-block;
@@ -483,18 +484,18 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: $sans-serif-narrow;
+  font-family: $Noto;
   font-size: $type-size-5;
   font-weight: bold;
 }
 
-.nav__sub-title {
+.nav__sub-title { /* 사이드바 대분류 폰트 조절*/
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
-  font-weight: bold;
+  font-family: 'GyeonggiTitleM';
+  font-size: 0.9em;
+  font-weight: 600;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
@@ -504,7 +505,7 @@
      ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $Noto;
   color: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;

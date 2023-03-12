@@ -58,11 +58,11 @@
     list-style-type: none;
   }
 
-  li {
+  li { /* footer의 '팔로우' 폰트 */
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
+    font-family: $Noto;
     font-size: $type-size-6;
     text-transform: uppercase;
   }

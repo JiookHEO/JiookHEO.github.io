@@ -23,7 +23,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    font-family: $main;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -44,18 +44,21 @@
 }
 
 .site-title {
+  /* 사이트 타이틀 폰트 조절*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-family: $main;
+  font-size: 1.5em;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-size: 0.60em;
 }
 
 .masthead__menu {
