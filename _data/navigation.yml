@@ -15,15 +15,23 @@ sidebar-categories:
   - title: "Data Engineering"
     children:
       - title : "SQL"
-        url: /
+        url: /categories/SQL
+        tag: "SQL"
   - title: "Algorithm Problems"
     children:
       - title : "백준"
-        url: /
+        url: /categories/baek
+        tag: "baek"
   - title: "Projects"
     children:
       - title : "Practice"
-        url: /
+        url: /categories/practice
+        tag: "practice"
+  - title: "Certificates"
+    children:
+      - title : "빅데이터 분석기사"
+        url: /categories/BAE
+        tag: "BAE"
   - title: "Blog_Dev"
     children:
       - title : "github.io 생성"
