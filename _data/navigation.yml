@@ -27,4 +27,4 @@ sidebar-categories:
   - title: "Blog_Dev"
     children:
       - title : "github.io 생성"
-        url: /blog
+        url: /categories/start
