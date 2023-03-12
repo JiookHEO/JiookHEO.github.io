@@ -12,7 +12,8 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+  font-family: $bodies;
+  font-weight: bold;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -125,7 +126,11 @@ blockquote {
 
 /* links */
 
-a {
+a {   /* 링크 타이틀 폰트*/
+  text-decoration: none;
+  font-family: $titles;
+  font-size: 0.90em;
+
   &:focus {
     @extend %tab-focus;
   }

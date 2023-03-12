@@ -56,8 +56,9 @@
 
   p,
   li {
-    font-family: $titles;
-    font-size: $type-size-4;
+    font-family: $titles;   /* 사이드바 카테고리 소분류 폰트 */
+    font-size: 0.85em;
+    font-weight: bold;
     line-height: 1.5;
   }
 
@@ -172,9 +173,9 @@
     margin-bottom: 10px;
   }
 }
-.sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+.sidebar .author__name {  /* 사이드바 이름 폰트 */
+  font-family: $titles;
+  font-size: 1.3em;
 }
 
 .author__bio {
