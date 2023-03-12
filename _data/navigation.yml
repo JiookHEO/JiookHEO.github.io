@@ -11,7 +11,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-sidebar-sample:
+sidebar-categories:
   - title: "Data Engineering"
     children:
       - title : "SQL"
@@ -24,3 +24,7 @@ sidebar-sample:
     children:
       - title : "Practice"
         url: /
+  - title: "Blog_Dev"
+    children:
+      - title : "github.io 생성"
+        url: /start
