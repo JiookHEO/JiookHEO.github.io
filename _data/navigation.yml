@@ -10,3 +10,21 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar:
+  title: "Categories"
+  nav: sidebar-sample
+
+sidebar-sample:
+  - title: "Data Engineering"
+    children:
+      - title : "SQL"
+        url: /
+  - title: "Algorithm Problems"
+    children:
+      - title : "백준"
+        url: /
+  - title: "Projects"
+    children:
+      - title : "Practice"
+        url: /

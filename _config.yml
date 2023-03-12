@@ -20,7 +20,7 @@ title                    : "비전공대생"
 title_separator          : "-"
 subtitle                 : "Vision 공대생" # site tagline that appears below site title in masthead
 name                     : "Jiook HEO"
-description              : "개발자가 되고싶은 비전공 공대생"
+description              : ""
 url                      : "https://JiookHEO.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Jiook HEO"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "개발자가 되고싶은 비전공 공대생"
   location         : "Somewhere"
   email            :
   links:
